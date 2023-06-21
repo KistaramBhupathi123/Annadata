@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activitys.FoodDonate"></activity>
+        <activity android:name=".activitys.FoodSell" />
+        <activity android:name=".activitys.DeliveryConform" />
+        <activity android:name=".activitys.SellConform" />
+        <activity android:name=".activitys.FoodDelivery" />
+        <activity android:name=".activitys.FoodBuy" />
+        <activity android:name=".activitys.UserHistory" />
+        <activity android:name=".activitys.Signinact" />
+        <activity android:name=".activitys.Loginact" />
+        <activity android:name=".activitys.FoodRetail" />
+        <activity android:name=".activitys.MainActivity" />
+        <activity android:name=".activitys.Profile" />
+        <activity android:name=".activitys.Flash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
